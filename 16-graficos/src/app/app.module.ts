@@ -9,6 +9,7 @@ import { LineaComponent } from './components/linea/linea.component';
 import { BarrasComponent } from './components/barras/barras.component';
 import { DonasComponent } from './components/donas/donas.component';
 import { RadarComponent } from './components/radar/radar.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RadarComponent } from './components/radar/radar.component';
     LineaComponent,
     BarrasComponent,
     DonasComponent,
-    RadarComponent
+    RadarComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
